@@ -33,9 +33,9 @@ Untuk production, ubah kredensial melalui environment variable:
 
 ```bash
 ADMIN_USERNAME=admin
-ADMIN_EMAIL=admin@domain.com
-## Admin production
-SESSION_SECRET=random-secret-yang-panjang
+ADMIN_EMAIL=email-kamu@example.com
+ADMIN_PASSWORD=<isi di Render>
+SESSION_SECRET=<buat secret random di Render>
 NODE_ENV=production
 ```
 
