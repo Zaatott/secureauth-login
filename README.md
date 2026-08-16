@@ -28,18 +28,13 @@ Lalu buka:
 
 http://localhost:3000
 
-## Akun admin default
-
-Username: `admin`
-Email: `admin@example.com`
-Password: `Admin123!`
 
 Untuk production, ubah kredensial melalui environment variable:
 
 ```bash
 ADMIN_USERNAME=admin
 ADMIN_EMAIL=admin@domain.com
-ADMIN_PASSWORD=PasswordKuat123!
+## Admin production
 SESSION_SECRET=random-secret-yang-panjang
 NODE_ENV=production
 ```
